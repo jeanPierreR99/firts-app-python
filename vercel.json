@@ -1,14 +1,14 @@
 {
-    "builds": [
-      {
-          "src": "api-rest/wsgi.py",
-          "use": "@vercel/python" 
-      }
-    ],
-    "routes": [
-      { 
-          "src": "/(.*)",
-          "dest": "api-rest/wsgi.py" 
-      }
-    ]
-  }
+  "builds": [
+    {
+      "src": "api_rest/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api_rest/wsgi.py"
+    }
+  ]
+}
