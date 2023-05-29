@@ -1,6 +1,0 @@
-# Ignorar archivos y directorios no necesarios en el despliegue
-.git
-.gitignore
-venv
-staticfiles
-media
